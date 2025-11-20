@@ -537,7 +537,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # --- 主函数 ---
 
 def main():
-    token = os.getenv("BOT_TOKEN", "8397896614:AAGRvgRO-RjaesarwQ6KJhi4U1x--262OdM")
+    token = os.getenv("BOT_TOKEN", "token在此填写")
     if not token:
         logging.critical("BOT_TOKEN 未设置！")
         exit(1)
